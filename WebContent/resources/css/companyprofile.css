@@ -1,0 +1,173 @@
+/* input[type="password"] {
+  color: transparent;
+} */
+body, html {
+	height: auto;
+	font-family: Poppins-Regular, sans-serif;
+}
+
+
+.container-login100 {
+	width: 100%;
+	min-height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*[ Title form ]*/
+.login100-form-title {
+	height: 250px;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.login100-form-title::after {
+	content: "";
+	display: block;
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(54, 84, 99, 0.7);
+}
+
+/*====================================================== left container */
+.company1 {
+	display: table;
+}
+
+.companylogo {
+	width: 150px;
+	height: 150px;
+	float: left;
+	margin-left: 5px;
+	display: table-cell
+}
+
+.companylogo>img {
+	boarder-radius: 2px solid black;
+	width: 120px;
+	height: 120px;
+	border: 2px solid white;
+}
+
+.companyaddr {
+	display: table-cell;
+	float: right;
+	color: white;
+}
+
+.maindiv {
+	
+}
+
+.bootstrapgrid {
+	margin: 45px 10px 10px 10px;
+}
+
+.commmondiv {
+	overflow-x: auto;
+	padding: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.owner-div {
+	margin: 0px 1px 0px 0px;
+	width: 100%;
+	height: 140px;
+	overflow: auto;
+}
+
+.owner-div>h3 {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: white;
+	top: 0;
+}
+
+.employee-div {
+	margin: 8px 0px 0px 0px;
+	width: 100%;
+	height: 200px;
+	overflow: auto;
+}
+
+.employee-div>h3 {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: white;
+	top: 0;
+}
+
+/*client  */
+.client-div {
+	margin: 0px 15px 0px 10px;
+	width: 100%;
+	height: 250px;
+	overflow: auto;
+}
+
+.client-div>h3 {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: white;
+	top: 0;
+}
+
+.resentbill-div {
+	margin: 0px 0px 0px 0px;
+	height: 250px;
+	width: 100%;
+	overflow: auto;
+}
+
+.resentbill-div>h3 {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: white;
+	top: 0;
+}
+
+/*resent-logins   */
+.recentlogins-div {
+	margin: 8px 0px 0px 0px;
+	height: 250px;
+	overflow: auto;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+.recentlogins-div>h3 {
+	position: -webkit-sticky;
+	position: sticky;
+	background-color: white;
+	top: 0;
+}
+
+.navchange-color.scrolled {
+	background-color: black !important;
+	height: 30px;
+	transition: background-color 200ms linear;
+}
